@@ -1,1 +1,19 @@
 <?php
+
+function overrides_node_presave($node) {
+  global $user;
+  if ($user->uid != 1) {
+    $parent_nid = arg(1);
+    $node->field_parent_node['und']['0']['target_id'] = $parent_nid;
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function overrides_form_topic_child_node_form_alter(&$form, &$form_state) {
+  global $user;
+  if ($user->uid != 1) {
+    $form['field_parent_node']['#access'] = FALSE;
+  }
+}

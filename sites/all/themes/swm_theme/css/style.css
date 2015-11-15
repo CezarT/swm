@@ -4,9 +4,430 @@
 #colorbox #branding {
   display: none;
 }
+.rate-info {
+  display: none;
+}
 #colorbox article.node-topic-child {
   background: #fff;
-  border-radius: 10px;
   padding: 10px;
+  border-radius: 10px;
   min-height: 350px;
+}
+.view-front-page .views-row, .view-front-page-second .views-row, .view-front-page-3 .views-row {
+  margin-bottom: 10px;
+}
+.view-front-page-4 .views-row {
+  margin-bottom: 50px;
+}
+.view-front-page .views-row {
+  padding: 0;
+}
+.view-front-page .views-field-field-cover-image img, .view-front-page-second .views-field-field-cover-image img,
+.view-front-page-3 .views-field-field-cover-image img {
+  height: 500px;
+  width: 100%;
+}
+.view-front-page-4 .views-field-field-cover-image img {
+  height: 280px;
+}
+.panel-pane.pane-block.pane-formblock-topic-child {
+  display: none;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.panel-pane.pane-block.pane-formblock-topic-child .pane-title {
+  display: none;
+}
+.panel-pane.pane-block.pane-formblock-topic-child .date-combo {
+  height: 125px;
+}
+.panel-pane.pane-block.pane-formblock-topic-child .panel-heading {
+  display: none;
+}
+.panel-pane.pane-block.pane-formblock-topic-child .field-name-body textarea {
+  height: 90px;
+}
+.panel-pane.pane-block.pane-formblock-topic-child .field-name-body .filter-wrapper {
+  display: none;
+}
+.view-topic-childs .views-row {
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.view-topic-childs .views-field-field-date {
+  position: relative;
+}
+.view-topic-childs .views-field-field-date:before {
+  content: "";
+  background: url(../images/circle.png) no-repeat;
+  position: absolute;
+  left: -49px;
+  width: 20px;
+  height: 20px;
+  background-size: 18px;
+  background-position: 0 0;
+}
+.view-topic-childs .view-content {
+  border-left: 1px solid #ccc;
+  padding-left: 40px;
+  margin-left: 100px;
+}
+.view-topic-childs .views-row-last {
+  margin-bottom: 120px;
+}
+.no-padding {
+  padding: 0;
+}
+.front-cont-wrapper {
+  position: relative;
+  height: 100%;
+}
+.view-front-page-4 .front-cont {
+  max-height: 145px;
+  padding-top: 100px;
+}
+.front-cont {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(http://i67.tinypic.com/nzkhn4.png);
+  background-size: contain;
+  width: 100%;
+  max-height: 298px;
+  padding-top: 240px;
+  transition: all 1.5s ease-in-out;
+  overflow: hidden;
+}
+.front-cont:hover {
+  max-height: 100%;
+}
+.front-cont a {
+  text-decoration: none;
+  color: #fff;
+}
+.front-cont a:hover {
+  text-decoration: none;
+}
+.view-front-page-second .views-field-nothing, .view-front-page-3 .views-field-nothing,
+.view-front-page-4 .views-field-nothing {
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.front-title-cont{
+  padding: 0pt 20pt;
+}
+.view-front-page-4 .front-title {
+  font-size: 20pt;
+}
+.view-front-page-4 .front-desc {
+  font-size: 12pt;
+  padding-top: 7pt;
+  padding-bottom: 0;
+}
+.front-title {
+  font-family: "Avenir";
+  font-size: 25pt;
+  color: #ffffff;
+  border-bottom: 2pt solid rgba(255, 255, 255, 0.55);
+  padding: 0pt 0pt 8pt 0pt;
+  z-index: 1;
+}
+
+.front-desc{
+  font-family: "Arial";
+  font-size: 14pt;
+  color: #ffffff;
+  padding: 10pt 20pt 10pt 20pt;
+  z-index: 1;
+}
+.front-more{
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 10pt;
+  color: #ffffff;
+  text-transform: uppercase;
+  z-index: 1;
+  padding: 10pt 20pt 10pt 20pt;
+}
+.navbar-default {
+  background: #fff;
+  border: none;
+}
+.logo img {
+  width: 200px;
+  margin-left: 15px;
+  transition: all 0.7s ease-in-out;
+}
+.fixed .logo img {
+  width: 120px;
+}
+.navbar-btn {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: all 0.7s ease-in-out;
+}
+.fixed .navbar-btn {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.sign-in-block {
+  float: right;
+  margin-top: 28px;
+  text-transform: uppercase;
+  color: black;
+  transition: all 0.7s ease-in-out;
+}
+.fixed .sign-in-block {
+  margin-top: 12px;
+}
+.sign-in-block a {
+  color: black;
+  transition: all .5s ease-in-out;
+}
+.sign-in-block a:hover {
+  text-decoration: none;
+  color: #FDB214;
+}
+.social-icons {
+  float: right;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid;
+  font-size: 21px;
+  margin-top: 20px;
+  transition: all 0.7s ease-in-out;
+}
+.fixed .social-icons {
+  margin-top: 5px;
+}
+.social-icons a {
+  color: black;
+  transition: all .5s ease-in-out;
+}
+.social-icons a:hover {
+  color: #FDB214;
+}
+.fb-icon {
+  margin-right: 10px;
+}
+.fixed {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: #fff;
+}
+#navbar {
+  transition: all .7s ease-in-out;
+}
+#navbar.fixed {
+  border-bottom: 3px solid #FDB214;
+}
+.pane-node-content .pane-title {
+  display: none;
+}
+.node-top-wrapper {
+  position: relative;
+}
+.node-top-wrapper img {
+  width: 100%;
+}
+.node-topic-title {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 60px;
+  font-family: 'Avenir Bold';
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  background-image: url(http://i67.tinypic.com/nzkhn4.png);
+  background-size: contain;
+  width: 100%;
+}
+.not-logged-in.page-user .main-container {
+  max-width: 1170px;
+}
+.view-topic-childs .view-header {
+  margin-top: 50px;
+}
+a.show-form {
+  color: #FE5829;
+  text-transform: uppercase;
+  padding-left: 40px;
+  margin-left: 100px;
+  font-family: 'Avenir Bold';
+  cursor: pointer;
+  border-left: 1px solid #ccc;
+  position: relative;
+  top: 12px;
+}
+a.show-form:before {
+  content: "";
+  background: url(../images/add-news.png) no-repeat;
+  position: absolute;
+  left: -9px;
+  width: 20px;
+  height: 20px;
+  background-size: 18px;
+  background-position: 0 0;
+}
+a.show-form:hover {
+  text-decoration: none;
+}
+
+
+
+.tpost-cont{
+  max-width: 635px;
+}
+
+.tpost-date-source{
+  color: rgba(00,00,00,0.5);
+  font-family: "Avenir2"; 
+  font-size: 12px;  
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 20px;
+  position: relative;
+}
+.tpost-date-source:before {
+  content: "";
+  background: url(../images/circle.png) no-repeat;
+  position: absolute;
+  left: -49px;
+  width: 20px;
+  height: 20px;
+  background-size: 18px;
+  background-position: 0 0;
+}
+.tpost-date-source a {
+  color: rgba(00,00,00,0.5);
+}
+.tpost-date-source a:hover {
+  text-decoration: none;
+}
+
+.tpost-title{
+  font-family: 'Avenir Bold';
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.tpost-title a {
+  color: black;
+}
+.tpost-title a:hover {
+  text-decoration: none;
+}
+.tpost-title2 a {
+  color: black;
+}
+.tpost-title2 a:hover {
+  text-decoration: none;
+}
+.tpost-title3 a {
+  color: black;
+}
+.tpost-title3 a:hover {
+  text-decoration: none;
+}
+
+
+.tpost-title2{
+  font-family: 'Avenir Bold';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.tpost-title3{
+  font-family: 'Avenir Bold';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.tpost-image img{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.tpost-descr-cont{
+}
+
+.tpost-counter-cont{
+  text-align: center;
+  width: 150px;
+  padding: 15px 0px 15px 10px;
+  border-left: 1px rgba(77,77,77,0.2) solid;
+  margin: 0px 10px 20px 15px;
+  width: 87px;
+  float: right;
+  text-decoration: none;
+}
+
+.tpost-counter-cont{
+  text-align: center;
+  width: 150px;
+  padding: 15px 0px 15px 10px;
+  border-left: 1px rgba(77,77,77,0.2) solid;
+  margin: 20px 10px 0px 15px;
+  width: 87px;
+  float: right;
+  text-decoration: none;
+}
+
+.tpost-arrow{
+  text-decoration: none;
+  text-align: middle
+}
+.tpost-arrow img{
+  height:15px;
+}
+
+.tpost-votes{
+  color: #777;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Avenir2";
+}
+
+.tpost-votes a{
+  color: #777;
+  text-decoration: none;
+}
+
+.tpost-votes a:hover{
+  color: #777;
+  text-decoration: none;  
+}
+
+.tpost-descr{
+  font-family: "Arial";
+  font-size: 14px;
+  color: #666;
+  padding-bottom: 10px;
+}
+
+.tpost-more{
+  font-family: "Avenir2"; 
+    font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  border-bottom: 1px rgba(77,77,77,0.1) solid;
+  margin-bottom: 10px;
+}
+.tpost-more a {
+  color: black;
+}
+.tpost-more a:hover {
+  text-decoration: none;
 }
