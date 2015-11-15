@@ -448,6 +448,12 @@ a.show-form:hover {
   width: 210px;
   height: 275px;
   text-transform: uppercase;
+  max-height: 32px;
+  overflow: hidden;
+  transition: all 1.4s ease-in-out;
+}
+.opened {
+  max-height: 100%;
 }
 .topics-sort li {
   line-height: 30px;

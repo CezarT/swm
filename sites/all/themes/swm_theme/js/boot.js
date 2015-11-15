@@ -4,7 +4,9 @@
       $(".show-form").click(function(){
         $(".panel-pane.pane-block.pane-formblock-topic-child").slideToggle(1800);
       });
-      
+      $(".topics-sort .first").click(function(){
+        $(".topics-sort").toggleClass("opened");
+      });
 
       $('#colorbox header a').contents().unwrap();
 
